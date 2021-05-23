@@ -107,7 +107,7 @@ module.exports.loadeventsateventreg = (req,res) =>{
 
 module.exports.ravelform = (req,res) =>{
    
-    res.render('form', {email : req.session.email})
+    res.render('thankyou', {email : req.session.email})
 }
 
 module.exports.ravelformsubmit = (req,res) =>{

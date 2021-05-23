@@ -43,7 +43,7 @@ router.get('/admin/login', redirect.RedirectadminHome, (req,res)=>{
 router.get('/502.html' ,(req,res)=>{
    res.redirect('/home');
 })
-router.get('/thankyou' , redirect.RedirectUnregistered,(req,res)=>{
+router.get('/thankyou' ,(req,res)=>{
     res.sendFile(path.resolve('views/thankyou.html')); })
 
 router.get('/google8bf102bffa1afc17.html', (req,res)=>{

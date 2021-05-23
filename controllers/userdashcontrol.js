@@ -120,7 +120,7 @@ module.exports.ravelformsubmit = (req,res) =>{
             console.log(err);
         }
         else{
-            alert("Thankyou");
+            res.redirect("/thankyou");
         }
      } )
     

@@ -57,7 +57,7 @@ module.exports.loadevents = (req,res) =>{
                                     btn2red = "/userdashboard/unravel/form"
                                     display = "block"
                                 }
-                                registeredeventdets.push({eventname,eventdate,eventdesc,eventorg,orgdet,isPaid,btn1name,btn2name,btn1red,btn2red,display});
+                                //registeredeventdets.push({eventname,eventdate,eventdesc,eventorg,orgdet,isPaid,btn1name,btn2name,btn1red,btn2red,display});
                             }
                             
                         })
